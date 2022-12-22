@@ -9,7 +9,7 @@ const Item = ({ item }) => {
             On {format(new Date(item.fields.time), "PPPP")}:
             <br />
             <br />
-            <strong className="font-bold text-md text-gray-200">
+            <strong className="font-bold text-md text-gray-200 text-3xl">
               {item.fields.task}
             </strong>
           </p>
